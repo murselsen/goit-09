@@ -1,10 +1,3 @@
-import SimplateLightbox from 'simplelightbox'; // module
-const SimplateLightbox = require('simplelightbox'); // CommonJS
-
-
-
-
-
 const galleryItems = [
   {
     preview:
@@ -80,25 +73,25 @@ galleryItems.forEach(item => {
   const galleryLink = document.createElement('a');
   galleryLink.classList.add('gallery__link');
   galleryLink.setAttribute('href', item.original);
-
+  /*
   const modalOriginal = basicLightbox.create(
     `<div class="modal">
         <img src="${item.original}" alt="${item.description}">
     </div>
 `
-  );
+  ); */
 
-  galleryLink.addEventListener('click', event => {
+  /*  galleryLink.addEventListener('click', event => {
     event.preventDefault(); // Resim indirme işlemi durduruldu !!!!
     modalOriginal.show();
-  });
+  }); */
 
-  document.addEventListener('keydown', event => {
+  /* document.addEventListener('keydown', event => {
     if (event.code === 'Escape') {
       modalOriginal.close();
     }
   });
-
+ */
   const image = document.createElement('img');
   image.classList.add('gallery__image');
   image.setAttribute('src', item.preview);
@@ -109,7 +102,3 @@ galleryItems.forEach(item => {
   galleryLink.appendChild(image);
   gallery.appendChild(galleryItem);
 });
-
-
-
-
