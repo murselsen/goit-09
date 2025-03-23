@@ -31,5 +31,8 @@ if (formDataLocal !== null) {
 form.addEventListener("submit", event => {
   event.preventDefault();
   const email = form.elements.email.value;
-  const message = form.elem
+  const message = form.elements.message.value;
+  console.log({
+    
+  })
 })
