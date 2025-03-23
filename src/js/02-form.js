@@ -8,3 +8,6 @@ form.addEventListener('input', event => {
   // feedback-form-state
   localStorage.setItem('feedback-form-state',)
 });
+
+
+form.addEventListener('submit', event => { });
