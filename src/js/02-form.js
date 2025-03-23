@@ -6,8 +6,9 @@ form.addEventListener('input', event => {
   const inputValue = event.target.value.trim();
 
   // feedback-form-state
-  localStorage.setItem('feedback-form-state',)
+  localStorage.setItem('feedback-form-state',);
 });
 
-
-form.addEventListener('submit', event => { });
+form.addEventListener('submit', event => {
+  event.preventDefault();
+});
