@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build --base=/goit-09/",
     "predeploy" : "npm run build",
-    ""
+    "deploy" : "gh-pages "
     "preview": "vite preview"
   },
   "devDependencies": {
