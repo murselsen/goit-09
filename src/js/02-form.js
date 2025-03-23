@@ -5,15 +5,13 @@ form.addEventListener('input', event => {
   // console.log(event);
 
   console.log(form.elements);
+  console.log(form.elements.name.value);
 
-
-  const inputValue = event.target.value.trim();
-  const inputName = event.target.name;
   // feedback-form-state
   localStorage.setItem(
     'feedback-form-state',
     JSON.stringify({
-      [inputName]: inputValue,
+
     })
   );
 });
