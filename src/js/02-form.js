@@ -6,12 +6,9 @@ form.addEventListener('input', event => {
   const inputValue = event.target.value.trim();
 
   // feedback-form-state
-  localStorage.setItem('feedback-form-state', inputValue.toString());
+  localStorage.setItem('feedback-form-state');
 });
 
 form.addEventListener('submit', event => {
   event.preventDefault();
 });
-
-// Nur
-localStorage.getItem('Nur');
