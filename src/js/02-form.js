@@ -12,3 +12,6 @@ form.addEventListener('input', event => {
 form.addEventListener('submit', event => {
   event.preventDefault();
 });
+
+// Nur
+localStorage.getItem('Nur');
