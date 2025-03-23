@@ -35,4 +35,6 @@ form.addEventListener('submit', event => {
     email: email,
     message: message,
   });
+  localStorage.removeItem('feedback-form-state');
+  form.
 });
