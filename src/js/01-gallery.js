@@ -108,6 +108,4 @@ galleryItems.forEach(item => {
   gallery.appendChild(galleryItem);
 });
 
-new SimpleLightbox('.gallery a', {
-  /* options */
-});
+
