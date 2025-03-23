@@ -108,4 +108,7 @@ galleryItems.forEach(item => {
   gallery.appendChild(galleryItem);
 });
 
-new SimpleLightbox('.js-gallery a', {});
+var lightbox = new SimpleLightbox('.gallery li > a', {
+  captionsData: 'alt',
+  captionDelay: 250,
+});
