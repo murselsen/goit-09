@@ -1,3 +1,10 @@
+import SimplateLightbox from 'simplelightbox'; // module
+const SimplateLightbox = require('simplelightbox'); // CommonJS
+
+
+
+
+
 const galleryItems = [
   {
     preview:
