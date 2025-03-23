@@ -7,7 +7,9 @@ form.addEventListener('input', event => {
   const inputName = event.target.name;
   // feedback-form-state
   localStorage.setItem('feedback-form-state',
-    JSON.string
+    JSON.stringify({
+      [inputName]: inputValue
+    })
   );
 });
 
