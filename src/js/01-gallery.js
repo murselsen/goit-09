@@ -3,9 +3,6 @@ import SimpleLightbox from 'simplelightbox';
 // Ek stillerin eklenmesi
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
-
-
-
 const galleryItems = [
   {
     preview:
@@ -111,7 +108,6 @@ galleryItems.forEach(item => {
   gallery.appendChild(galleryItem);
 });
 
-
-new SimpleLightbox('.some-element a', {
+new SimpleLightbox('.gallery a', {
   /* options */
 });
