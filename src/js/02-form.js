@@ -22,7 +22,7 @@ const formDataLocal = JSON.parse(localStorage.getItem('feedback-form-state'));
 console.log(formDataLocal);
 console.log(typeof formDataLocal);
 
-
+form.elements.email.value = 
 
 /* form.addEventListener('submit', event => {
   event.preventDefault();
