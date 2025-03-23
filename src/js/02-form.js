@@ -36,5 +36,5 @@ form.addEventListener('submit', event => {
     message: message,
   });
   localStorage.removeItem('feedback-form-state');
-  form.
+  form.reset();
 });
