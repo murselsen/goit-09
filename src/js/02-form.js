@@ -4,11 +4,26 @@ const form = document.querySelector('.feedback-form');
 form.addEventListener('input', event => {
   console.log(event);
   const inputValue = event.target.value.trim();
-
+  const inputName = event.target.name;
   // feedback-form-state
-  localStorage.setItem('feedback-form-state');
+  localStorage.setItem('feedback-form-state',
+    JSON.string
+  );
 });
 
-form.addEventListener('submit', event => {
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* form.addEventListener('submit', event => {
   event.preventDefault();
-});
+}); */
