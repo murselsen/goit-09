@@ -1,1 +1,3 @@
-const form = document.querySelector()
+const form = document.querySelector(".feedback-form");
+
+//input event
