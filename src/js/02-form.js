@@ -2,8 +2,8 @@ const form = document.querySelector('.feedback-form');
 
 //input event
 form.addEventListener('input', event => {
-  const email = form.elements.email.value;
-  const message = form.elements.message.value;
+  const email = form.elements.email.value.trim();
+  const message = form.elements.message.value.trim();
   console.log({
     email: email,
     message: message,
@@ -18,8 +18,9 @@ form.addEventListener('input', event => {
   );
 });
 
-const formDataLocal = 
-
+const formDataLocal = JSON.parse(localStorage.getItem('feedback-form-state'));
+console.log(formDataLocal);
+console.log(typeof formDataLocal);
 
 
 
