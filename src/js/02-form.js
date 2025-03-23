@@ -5,8 +5,8 @@ form.addEventListener('input', event => {
   // console.log(event);
 
   console.log(form.elements);
-  console.log(form.elements.name.value);
-
+  const email = form.elements.email.value;
+  cons
   // feedback-form-state
   localStorage.setItem(
     'feedback-form-state',
