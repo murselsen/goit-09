@@ -26,3 +26,8 @@ if (formDataLocal !== null) {
   form.elements.email.value = formDataLocal.email;
   form.elements.message.value = formDataLocal.message;
 }
+
+
+form.addEventListener("submit", event => {
+  
+})
