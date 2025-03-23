@@ -27,12 +27,12 @@ if (formDataLocal !== null) {
   form.elements.message.value = formDataLocal.message;
 }
 
-
-form.addEventListener("submit", event => {
+form.addEventListener('submit', event => {
   event.preventDefault();
   const email = form.elements.email.value;
   const message = form.elements.message.value;
   console.log({
-    
-  })
-})
+    email: email,
+    message: message,
+  });
+});
